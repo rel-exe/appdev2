@@ -38,3 +38,4 @@
 - I expect to be able to create a mobile application that is ready for deployment, not just for course compliance but also for professional and personal projects.
 - I am excited to explore Software Quality Assurance (SQA) in mobile development and understand the differences between mobile and web applications.
 - Gaining practical knowledge and confidence in this field will make me confidently say that this course was worth it.
+
