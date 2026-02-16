@@ -91,7 +91,7 @@ const styles = StyleSheet.create({
   },
 
   button: {
-    backgroundColor: '#007BFF',
+    backgroundColor: '#106fc7',
     paddingVertical: 12,
     borderRadius: 8,
     width: '100%',
@@ -118,7 +118,7 @@ const styles = StyleSheet.create({
   },
 
   hyperLink: {
-    color: '#007BFF',
+    color: '#106fc7',
     fontWeight: 'bold',
     fontSize: 14,
   },
