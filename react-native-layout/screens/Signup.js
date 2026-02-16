@@ -23,7 +23,15 @@ export default function Signup() {
       <View style={styles.inputContainer}>
         <Ionicons name="person-outline" size={20} color="#555" />
         <TextInput
-          placeholder="Full Name"
+          placeholder="First Name"
+          style={styles.input}
+        />
+      </View>
+
+      <View style={styles.inputContainer}>
+        <Ionicons name="person-outline" size={20} color="#555" />
+        <TextInput
+          placeholder="Last Name"
           style={styles.input}
         />
       </View>
@@ -46,6 +54,15 @@ export default function Signup() {
         />
       </View>
 
+      <View style={styles.inputContainer}>
+        <Ionicons name="lock-closed-outline" size={20} color="#555" />
+        <TextInput
+          placeholder="Confirm Password"
+          secureTextEntry
+          style={styles.input}
+        />
+      </View>
+
       <TouchableOpacity style={styles.button}>
         <Text style={styles.buttonText}>Create Account</Text>
       </TouchableOpacity>
@@ -63,7 +80,7 @@ export default function Signup() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#ffffff', 
+    backgroundColor: '#ffff', 
     justifyContent: 'center',
     alignItems: 'center',
     padding: 20,
@@ -71,7 +88,7 @@ const styles = StyleSheet.create({
 
   image: {
     width: 1000,
-    height: 180,
+    height: 195,
     marginBottom: 20,
   },
 
@@ -92,7 +109,7 @@ const styles = StyleSheet.create({
     marginBottom: 15,
     height: 50,
     width: '100%',
-    backgroundColor: 'hsl(320, 67%, 74%)',
+    backgroundColor: '#e990cc',
   },
 
   input: {
