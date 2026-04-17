@@ -51,12 +51,6 @@ function DetailsScreen({ route }) {
       >
         Go to Details... again
       </Button>
-
-
-
-
-
-
     </View>
   );
 }
@@ -76,7 +70,11 @@ const RootStack = createNativeStackNavigator({
         title: 'Overview',
       },
     },
-    Details: DetailsScreen,
+    Details: {
+      screen: DetailsScreen,
+      initialParams: { itemId: 42 },
+
+    },
   },
 });
 
